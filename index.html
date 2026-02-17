@@ -8,6 +8,7 @@
     image_url = random.choice([
         "box_ treasure.png", # 宝石のURL(書き換え) --- (※1a)
         "box_empty.png", # 空箱のURL(書き換え) --- (※1b) 
+        "box_close.png",
     ])
     # 画像を表示するHTMLを動的に生成して表示 --- (※2)
     js.document.write(f"<img src='{image_url}'>")
